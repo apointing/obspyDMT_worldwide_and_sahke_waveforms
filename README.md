@@ -26,8 +26,8 @@ where 55.76,12.4, 23.0 is lat, long, elevation of your Raspberry Shake
 
 Find your mseed file for the day of the event e.g. AM.RD4A6.00.SHZ.D.2017.022
 
-Then copy this file to the sub-directory "raw" and rename it in a similar format like this:
-AM.RD4A6.00.BHZ
+Then copy this file to the sub-directory "raw" beneath "solomon" and rename it in a 
+similar format like this: AM.RD4A6.00.BHZ
 
 Then run the terminal command to plot the waveforms:
 
