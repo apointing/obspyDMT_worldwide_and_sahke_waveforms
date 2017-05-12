@@ -9,7 +9,7 @@ stations in the worldwide network e.g. IRIS
 
 Install obspyDMT (see https://github.com/kasra-hosseini/obspyDMT)
 
-The steps below are related to the solomon Islands 7.9 event on 22nd Jan 2017 (change it
+The steps below are related to the Solomon Islands 7.9 event on 22nd Jan 2017 (change it
 for the event you need)
 
 Extract the waveforms into the directory "solomon", using the terminal command:
