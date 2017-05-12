@@ -12,7 +12,8 @@ Install obspyDMT (see https://github.com/kasra-hosseini/obspyDMT)
 The steps below are related to the Solomon Islands 7.9 event on 22nd Jan 2017 (change it
 for the event you need)
 
-Extract the waveforms into the directory "solomon", using the terminal command:
+Extract the waveforms and associated files into the directory "solomon", using the terminal 
+command:
 
 obspyDMT --datapath solomon --min_date 2017-01-22 --max_date 2017-01-23 --min_mag 7.5 
 --data_source IRIS --net "II" --loc "00" --cha "BHZ"
