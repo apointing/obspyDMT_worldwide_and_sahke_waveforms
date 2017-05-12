@@ -18,7 +18,7 @@ command:
 obspyDMT --datapath solomon --min_date 2017-01-22 --max_date 2017-01-23 --min_mag 7.5 
 --data_source IRIS --net "II" --loc "00" --cha "BHZ"
 
-Edit the file "availability.txt" in a sub-directory "info" beneath "solomon".
+Edit the file "availability.txt" in the sub-directory "info" beneath "solomon".
 Insert a line at the beginning of this file and put you Raspberry Shake details in e.g.
 
 AM,RD4A6,00,BHZ,55.76,12.4,23.0,5.3,RASP,AM_RD4A6_00_SHZ
