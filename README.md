@@ -13,6 +13,7 @@ The steps below are related to the Solomon Islands 7.9 event on 22nd Jan 2017 (c
 for the event you need)
 
 Extract the waveforms into the directory "solomon", using the terminal command:
+
 obspyDMT --datapath solomon --min_date 2017-01-22 --max_date 2017-01-23 --min_mag 7.5 
 --data_source IRIS --net "II" --loc "00" --cha "BHZ"
 
@@ -26,5 +27,6 @@ Then copy this file to the sub-directory "raw" and rename it in a similar format
 AM.RD4A6.00.BHZ
 
 Then run the terminal command to plot the waveforms:
+
 obspyDMT --datapath solomon --local --plot_waveform
 
