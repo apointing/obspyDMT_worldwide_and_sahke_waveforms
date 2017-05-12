@@ -19,10 +19,13 @@ obspyDMT --datapath solomon --min_date 2017-01-22 --max_date 2017-01-23 --min_ma
 
 Edit the file "availability.txt" in a sub-directory "info" beneath "solomon".
 Insert a line at the beginning of this file and put you Raspberry Shake details in e.g.
+
 AM,RD4A6,00,BHZ,55.76,12.4,23.0,5.3,RASP,AM_RD4A6_00_SHZ
-where 55.76,12.4, 23.0 is lat, long, elevation
+
+where 55.76,12.4, 23.0 is lat, long, elevation of your Raspberry Shake
 
 Find your mseed file for the day of the event e.g. AM.RD4A6.00.SHZ.D.2017.022
+
 Then copy this file to the sub-directory "raw" and rename it in a similar format like this:
 AM.RD4A6.00.BHZ
 
