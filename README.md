@@ -1,4 +1,4 @@
-# obspyDMT_worldwide_and_shake_waveforms
+plot_worldwide_stations_and_Shake_waveforms
 Use obspyDMT to plot waveforms from worldwide networks and include a raspberry shake waveform.
 
 obspyDMT is a command line tool for retrieving, processing and management of seismological 
